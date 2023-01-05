@@ -3,9 +3,9 @@ import { ShowNav } from "../nav/nav"
 
 const Header = props => {
     return (
-        <header>
+        <header className="main-header">
             <h1>{props.pageTitle}</h1>
-            <nav className="Main-Navigation">
+            <nav className="main-navigation">
             <ShowNav />
             </nav>
         </header>
