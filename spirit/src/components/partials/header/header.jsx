@@ -1,6 +1,3 @@
-
-
-
 const Header = props => {
     return (
         <header className="main-header">
